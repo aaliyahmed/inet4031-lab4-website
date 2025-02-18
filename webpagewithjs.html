@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<h2>Simple Web Page with HTML and JavaScript</h2>
-
-<p>JavaScript can change HTML attribute values.</p>
-
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
-
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
-
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
-
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
-
-</body>
-</html>
+    <head>
+        <title>Interactive Lightbulb Webpage</title>
+        <style>
+            body {
+                background-color: rgb(181, 160, 216);
+                font-family: Arial, sans-serif;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <h2>Welcome to My Webpage</h2>
+    
+    <p>This page shows how HTML and JavaScript work together to change elements on a webpage.</p>
+    
+    <p>Created by: Aaliyah Mohamed</p>
+    
+    <p>Click the buttons below to turn the lightbulb on and off:</p>
+    
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+    
+    <img id="myImage" src="pic_bulboff.gif" style="width:200px; margin-top: 20px;">
+    
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+    
+    </body>
+    </html>
